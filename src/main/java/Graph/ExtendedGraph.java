@@ -3,9 +3,6 @@ package Graph;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Adjacency list implementation of a graph
- */
 public class ExtendedGraph extends AbstractGraph {
     public ExtendedGraph(List vertices, List edges) {
         super(vertices, edges);
