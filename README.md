@@ -9,7 +9,7 @@ TODO #1: Implement the incidentEdges function in ExtendedGraph.java
 
 TODO #2: Implement the initializeSingleSource function in Path.java
 
-TODO #3: Implement the dijkstra function in path.java
+TODO #3: Implement the dijkstra function in Path.java
 
 This assignment will test your grasp on Dijkstra's algorithm.  
 The steps are found within each function and it is your job to code it out.  
@@ -21,7 +21,7 @@ The steps are found within each function and it is your job to code it out.
 * To run more specific tests, run the command <br>
   `mvn -Dtest=AssignmentTest#TESTCASEHERE test` <br>
   where `TESTCASEHERE` is the test case you want to run. These test cases can be found in **src/test/java/AssignmentTest** <br>
-    * Ex:  `mvn -Dtest=AssignmentTest#test_2_puts test`
+    * Ex:  `mvn -Dtest=AssignmentTest#testIncidentEdges test`
 
 The results can be found in the command line or in **target/surefire-reports/AssignmentTest.txt** after execution.
 
@@ -29,6 +29,6 @@ The results can be found in the command line or in **target/surefire-reports/Ass
 
 Alternatively,
 
-You can use the main method found in RhymingDict.java. In fact, the test cases are dervied from that main method.
+You can use the main method found in Path.java. In fact, the test cases are dervied from that main method.
 
 
