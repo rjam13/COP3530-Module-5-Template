@@ -3,6 +3,9 @@
 
 In this assignment you will program Dijkstra's Algorithm using a custom graph class.
 
+![digraph](img.png)
+This image is the example used for the test cases.
+
 ## Objectives
 
 TODO #1: Implement the incidentEdges function in ExtendedGraph.java
@@ -30,5 +33,32 @@ The results can be found in the command line or in **target/surefire-reports/Ass
 Alternatively,
 
 You can use the main method found in Path.java. In fact, the test cases are dervied from that main method.
+
+## Hints  
+
+Below you will find the pseudo-code.
+```
+Initialize-single-source(G, s):  
+  for each vertex of all vertices in G:
+    v.d = infinity
+    v.pi = NIL
+  s.d = 0
+  
+RELAX(u,v,w):
+  if u.d+w(u,v) < v.d:
+    v.d = u.d + w(u,v)
+    v.pi = u
+
+Dijkstra(G,w,s):
+  Initialize-single-source(G, s)
+  Q = null set(O/) (priority queue)
+  for each vertex U in G:		
+    Enqueue(Q, U)
+  while Q is not empty:		
+    u = extract minimum(Q)	
+    for each vertex v adjacent to u:	
+      RELAX(u,v,w)
+    update values of each vertex in priority queue
+```
 
 

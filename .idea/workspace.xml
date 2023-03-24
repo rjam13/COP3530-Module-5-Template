@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f24beb-737a-4c05-ae34-4b047ec5e4f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/AbstractGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/AbstractGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/AdjListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/ExtendedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Path/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Path/Path.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Path/SortByDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Path/SortByDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AssignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssignmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/Path" />
     </key>
